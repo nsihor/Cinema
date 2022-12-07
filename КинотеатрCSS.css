@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700&family=Supermercado+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700&family=Red+Hat+Mono:wght@300;400;500;600;700&family=Supermercado+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar { 
+background-color: rgb(84, 100, 133);
+position: fixed;
+top: 0;
+width: 100%;
+display: flex;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+h1 {
+ font-size: 35px;
+ color: rgb(235, 233, 233);
+ margin-left: 15px;
+ font-family: 'Bitter', serif;
+}   
+.navbar li {
+list-style-type: none;
+display: inline;
+
+}
+.navbar a {
+text-decoration: none;
+color: rgb(235, 233, 233);
+font-size: 25px;
+margin-left: 25px;
+margin-right: 25px;
+}
+.navbar ul {
+text-align: right;   
+padding-top: 5px; 
+}
+nav {
+width: 100%;
+}
+body {
+    font-family: 'Red Hat Mono', monospace;
+    background-color: rgb(6, 4, 3);
+    color: rgb(255, 255, 255);
+}
+.Premera-d {  
+display: flex; 
+font-size: 1.3rem;
+width: 100%;
+}
+h2 {
+    color: rgb(218, 141, 51);
+    margin: 15px 0 15px 0;
+    font-family: 'Bitter', serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 4rem;
+}
+h3{
+    font-size: 30px;
+    margin: 10px, 15px, 15px 15px;
+}
+p{
+    margin: 3px;
+}
+.p-left {
+width: 30vw;
+margin-top: 0.5rem;
+    
+}
+.p-right {
+width: 70vw;   
+margin-top: 0.5rem;
+}
+.Today-d {
+font-size: 1.5rem;    
+min-height: 80vh;
+display: flex;
+align-items: center;
+}
+.today{
+display: flex; 
+margin: 15px;
+padding-left: 2rem;
+}
+.unc, .death, .dog {
+display: flex;  
+width: 33%;
+}
+.un-d, .de-d, .do-d {
+margin-left: 15px;
+margin-right: 15px;
+}
+.Today-d a {
+text-decoration: none;
+background-color: rgb(84, 100, 133);
+color: white;
+padding: 4px 10px 4px 10px;
+border-radius: 7px;
+border:1px solid rgb(218, 141, 51);
+font-weight: 300;
+margin-left: 4px;
+font-size: 1.2rem;
+}
+.Today-d textarea {
+    background-color: rgb(189, 189, 189);
+    padding: 5px;
+    margin-top: 14px;
+}
+h3 {
+margin-bottom: 13px;
+margin-left: 4px;
+}
+table, th, td{
+    border: 1px solid whitesmoke;
+    border-collapse: collapse;
+    padding: 10px;    
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1000px;
+    min-height: 400px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    background-color: rgb(15, 15, 14);
+}
+.Today-d button {
+    background-color: rgb(218, 141, 51);
+    font-weight: 600;
+    border: 0;
+    border-radius: 7px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    cursor: pointer;
+}
+footer {
+background-color: rgb(15, 15, 14);
+text-align: center;
+padding-bottom: 1rem;
+}
+footer img{
+width: 50px;
+height: 50px;
+margin: 2rem;
+}
+.social {
+
+}
